@@ -16,6 +16,7 @@
     <img src="https://img.shields.io/badge/puppeteer-0d2f26?style=for-the-badge&logo=puppeteer">
     <img src="https://img.shields.io/badge/npm-%23CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white">
     <img src="https://img.shields.io/badge/Sublime%20Text-%23323330.svg?&style=for-the-badge&logo=sublimetext">
+    <img src="https://img.shields.io/badge/electron-A2ECFB.svg?style=for-the-badge&logo=electron&logoColor=black">
 </p>
 
 <h4 align="center" > 🖥 Operating system</h4>
