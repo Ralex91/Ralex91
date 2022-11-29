@@ -39,7 +39,10 @@
   <h3>Memocord</h3>                                                               
   <h4>Memocord is a website that collects Discord memes and then finds them in one place, so that they can be shared or even discovered.</h4>                                                               
 </p>
+
+<br>
 <hr>
+
 <p>
     <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
     <h3 align="right">Doggy Bot</h3>
