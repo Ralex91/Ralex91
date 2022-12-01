@@ -1,6 +1,7 @@
 <img src="https://github.com/Ralex91/Ralex91/blob/main/banner.jpg?raw=true">
-
-<br>
+<p align="center">
+    <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FRalex91%2FRalex91&countColor=%2337d67a">
+</p>
 
 <h3 style="font-size: 50px;" align="center">📚 Languages and Tools</h3>
 
@@ -37,7 +38,7 @@
 <div>
   <img width="100" align="left" src="https://memocord.me/cdn/img/favicon.jpg">
                                                                             
-  <h3>Memocord</h3>                                                               
+  <a href="https://memocord.me"><h3>Memocord</h3></a>
   <h4>Memocord is a website that collects Discord memes and then finds them in one place, so that they can be shared or even discovered.</h4>                                                               
 </p>
 
@@ -55,7 +56,7 @@
 
 <p>
     <img width="100" align="left" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
-    <h3>Rage Deathrun</h3>
+    <a href="https://rage-deathrun.tk"><h3>Rage Deathrun</h3></a>
     <h4>Game server on game Garry's mod on game mode deathrun</h4>
 </p>
 <br>
