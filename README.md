@@ -59,6 +59,16 @@
     <a href="https://rage-deathrun.tk"><h3>Rage Deathrun</h3></a>
     <h4>Game server on game Garry's mod on game mode deathrun</h4>
 </p>
+
+<br>
+<hr>
+
+<p>
+    <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
+    <h3 align="right">BeatPKG</h3>
+    <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
+</p>
+
 <br>
 
 <hr>
