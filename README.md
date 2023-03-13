@@ -28,7 +28,7 @@
 </p>
 
 <p align="center">
-    <img src="https://github.com/Ralex91/Ralex91/blob/main/bar.jpg?raw=true">
+    <img src="https://github.com/Ralex91/Ralex91/blob/main/bars.jpg?raw=true">
 </p>
 
 <h3 align="center">📦 My Projects </h3>
@@ -74,7 +74,7 @@
 <hr>
 
 <p align="center">
-    <img src="https://github.com/Ralex91/Ralex91/blob/main/bar.jpg?raw=true">
+    <img src="https://github.com/Ralex91/Ralex91/blob/main/bars.jpg?raw=true">
 </p>
 
 <h3 align="center">📊 Statistics</h3>
