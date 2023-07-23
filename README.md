@@ -38,7 +38,9 @@
 <div>
   <img width="100" align="left" src="https://memocord.me/cdn/img/favicon.jpg">
                                                                             
-  <a href="https://memocord.me"><h3>Memocord</h3></a>
+  <h3>
+      <a href="https://memocord.me"> Memocord </a>
+  </h3>
   <h4>Memocord is a website that collects Discord memes and then finds them in one place, so that they can be shared or even discovered.</h4>                                                               
 </p>
 
@@ -47,7 +49,9 @@
 
 <p>
     <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
-    <h3 align="right">BeatPKG</h3>
+    <h3 align="right">
+        <a href="https://beatpkg.ralex.app"> BeatPKG </a>
+    </h3>
     <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
 </p>
 
@@ -56,7 +60,9 @@
 
 <p>
     <img width="100" align="left" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
-    <a href="https://rage-deathrun.tk"><h3>Rage Deathrun</h3></a>
+    <h3>
+        <a href="https://rage-deathrun.tk/"> Rage Deathrun </a>
+    </h3>
     <h4>Game server on game Garry's mod on game mode deathrun</h4>
 </p>
 
@@ -65,7 +71,9 @@
 
 <p>
     <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
-    <h3 align="right">Doggy Bot</h3>
+    <h3 align="right">
+        <a href="https://doggy.ralex.app/"> Doggy Bot </a>
+    </h3>
     <h4 align="right">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
 </p>
 
