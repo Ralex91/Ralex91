@@ -46,9 +46,9 @@
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
-    <h3 align="right">Doggy Bot</h3>
-    <h4 align="right">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
+    <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
+    <h3 align="right">BeatPKG</h3>
+    <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
 </p>
 
 <br>
@@ -64,9 +64,9 @@
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
-    <h3 align="right">BeatPKG</h3>
-    <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
+    <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
+    <h3 align="right">Doggy Bot</h3>
+    <h4 align="right">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
 </p>
 
 <br>
