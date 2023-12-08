@@ -65,7 +65,7 @@
   <img width="100" align="left" src="https://github.com/GuildSaber/GuildSaber_Website/blob/main/public/gsLogo.svg">
                                                                             
   <h3>
-      <a href="https://github.com/GuildSaber/GuildSaber_Website"> GuilSaber | Front-End Developer</a>
+      <a href="https://github.com/GuildSaber/GuildSaber_Website"> GuildSaber | Front-End Developer</a>
   </h3>
   <h4>Guildsaber is a clan ranking platform for the BeatSaber game.</h4>                                                               
 </p>
