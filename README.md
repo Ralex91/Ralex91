@@ -39,6 +39,7 @@
 <hr>
 
 <div>
+<p>
   <img width="100" align="left" src="https://memocord.me/cdn/img/favicon.jpg">
                                                                             
   <h3>
@@ -60,35 +61,46 @@
 
 <br>
 <hr>
+<p>
+  <img width="100" align="left" src="https://github.com/GuildSaber/GuildSaber_Website/blob/main/public/gsLogo.svg">
+                                                                            
+  <h3>
+      <a href="https://github.com/GuildSaber/GuildSaber_Website"> GuilSaber | Front-End Developer</a>
+  </h3>
+  <h4>Guildsaber is a clan ranking platform for the BeatSaber game.</h4>                                                               
+</p>
+
+<br>
+<hr>
 
 <p>
-    <img width="100" align="left" src="https://beatpkg.ralex.app/assets/img/logo.png">
-    <h3 align="left">
+    <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
+    <h3 align="right">
         <a href="https://beatpkg.ralex.app"> BeatPKG </a>
     </h3>
-    <h4 align="left">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
+    <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
 </p>
 
 <br>
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
-    <h3 align="right" >
+    <img width="100" align="left" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
+    <h3 align="left" >
         <a href="https://rage-deathrun.tk/"> Rage Deathrun </a>
     </h3>
-    <h4 align="right">Game server on game Garry's mod on game mode deathrun</h4>
+    <h4 align="left">Game server on game Garry's mod on game mode deathrun</h4>
 </p>
 
 <br>
 <hr>
 
 <p>
-    <img width="100" align="left" src="https://ralex.app/assets/img/doggy.png">
-    <h3 align="left">
+    <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
+    <h3 align="right">
         <a href="https://doggy.ralex.app/"> Doggy Bot </a>
     </h3>
-    <h4 align="left">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
+    <h4 align="right">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
 </p>
 
 <br>
