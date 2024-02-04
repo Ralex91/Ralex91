@@ -50,11 +50,21 @@
 
 <br>
 <hr>
+<p>
+    <img width="100" align="right" src="https://raw.githubusercontent.com/Ralex91/Rahoot/main/public/icon.svg">
+    <h3 align="right">
+        <a href="https://github.com/Ralex91/Rahoot"> Rahoot </a>
+    </h3>
+    <h4 align="right">Rahoot is a straightforward and open-source clone of the Kahoot! platform, allowing users to host it on their own server for smaller events. </h4>
+</p>
+
+<br>
+<hr>
 
 <p>
-    <img width="100" align="right" src="https://cdn.discordapp.com/avatars/1151103217921425440/4e07491b5b2065348bf2556f4935c993.png?size=1024">
-    <h3 align="right">
-        <a href="https://beatsnipe.ralex.app/discord"> BeatSnipe </a>
+    <img width="100" align="left" src="https://cdn.discordapp.com/avatars/1151103217921425440/4e07491b5b2065348bf2556f4935c993.png?size=1024">
+    <h3 align="left">
+        <a href="https://github.com/Ralex91/BeatSnipe"> BeatSnipe </a>
     </h3>
     <h4 align="right">I'm a bot 🤖 that tracks the scores of the players you want to snipe to generate & auto-update playlists</h4>
 </p>
@@ -62,45 +72,45 @@
 <br>
 <hr>
 <p>
-  <img width="100" align="left" src="https://github.com/GuildSaber/GuildSaber_Website/blob/main/public/gsLogo.svg">
+  <img width="100" align="right" src="https://github.com/GuildSaber/GuildSaber_Website/blob/main/public/gsLogo.svg">
                                                                             
-  <h3>
+  <h3 align="right">
       <a href="https://github.com/GuildSaber/GuildSaber_Website"> GuildSaber | Front-End Developer</a>
   </h3>
-  <h4>Guildsaber is a clan ranking platform for the BeatSaber game.</h4>                                                               
+  <h4 align="right">Guildsaber is a clan ranking platform for the BeatSaber game.</h4>                                                               
 </p>
 
 <br>
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://beatpkg.ralex.app/assets/img/logo.png">
-    <h3 align="right">
+    <img width="100" align="left" src="https://beatpkg.ralex.app/assets/img/logo.png">
+    <h3 align="left">
         <a href="https://beatpkg.ralex.app"> BeatPKG </a>
     </h3>
-    <h4 align="right">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
+    <h4 align="left">BeatPKG is a large list of Beat Saber mods that automatically updates via the mods Github to create mod packs for download.</h4>
 </p>
 
 <br>
 <hr>
 
 <p>
-    <img width="100" align="left" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
-    <h3 align="left" >
+    <img width="100" align="right" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
+    <h3 align="right" >
         <a href="https://rage-deathrun.tk/"> Rage Deathrun </a>
     </h3>
-    <h4 align="left">Game server on game Garry's mod on game mode deathrun</h4>
+    <h4 align="right">Game server on game Garry's mod on game mode deathrun</h4>
 </p>
 
 <br>
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://ralex.app/assets/img/doggy.png">
-    <h3 align="right">
+    <img width="100" align="left" src="https://ralex.app/assets/img/doggy.png">
+    <h3 align="left">
         <a href="https://doggy.ralex.app/"> Doggy Bot </a>
     </h3>
-    <h4 align="right">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
+    <h4 align="left">Doggy bot is a Discord bot that offers a soundboard system and other cool controls.</h4>
 </p>
 
 <br>
