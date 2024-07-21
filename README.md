@@ -15,12 +15,18 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/npm-%23CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white">
     <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white">
+    <img src="https://img.shields.io/badge/discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
+    <img src="https://img.shields.io/badge/express-080b0f?style=for-the-badge&logo=express&logoColor=white"/>
     <img src="https://img.shields.io/badge/puppeteer-0d2f26?style=for-the-badge&logo=puppeteer">
     <img src="https://img.shields.io/badge/REACT-149eca?style=for-the-badge&logo=react&logoColor=white">
-    <img src="https://img.shields.io/badge/Stylus-9cbf1f.svg?&style=for-the-badge&logo=stylus&logoColor=white">
+    <img src="https://img.shields.io/badge/sass-cc6699.svg?&style=for-the-badge&logo=sass&logoColor=white">
+    <br>
     <img src="https://img.shields.io/badge/electron-A2ECFB.svg?style=for-the-badge&logo=electron&logoColor=black">
+    <img src="https://img.shields.io/badge/tailwind-0ea5e9?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+    <img src="https://img.shields.io/badge/GIT-f03c2e?style=for-the-badge&logo=git&logoColor=white"/>
+    <img src="https://img.shields.io/badge/next.js-000.svg?style=for-the-badge&logo=next.js&logoColor=white">
+    <img src="https://img.shields.io/badge/docker-1D63ED.svg?&style=for-the-badge&logo=docker&logoColor=white">
 </p>
 
 <h4 align="center" > 🖥 Operating system</h4>
@@ -40,10 +46,10 @@
 
 <div>
 <p>
-  <img width="100" align="left" src="https://memocord.me/cdn/img/favicon.jpg">
+  <img width="100" align="left" src="https://ralex.app/assets/portfolio/img/logo/memocord.svg">
                                                                             
   <h3>
-      <a href="https://memocord.me"> Memocord </a>
+      <a href="https://memocord.ralex.app"> Memocord </a>
   </h3>
   <h4>Memocord is a website that collects Discord memes and then finds them in one place, so that they can be shared or even discovered.</h4>                                                               
 </p>
@@ -66,7 +72,7 @@
     <h3 align="left">
         <a href="https://github.com/Ralex91/BeatSnipe"> BeatSnipe </a>
     </h3>
-    <h4 align="right">I'm a bot 🤖 that tracks the scores of the players you want to snipe to generate & auto-update playlists</h4>
+    <h4 align="left">I'm a bot 🤖 that tracks the scores of the players you want to snipe to generate & auto-update playlists</h4>
 </p>
 
 <br>
@@ -95,7 +101,7 @@
 <hr>
 
 <p>
-    <img width="100" align="right" src="https://media.discordapp.net/attachments/461282436899405824/461282784116342794/discord_dr.png?width=676&height=676">
+    <img width="100" align="right" src="https://ralex.app/assets/portfolio/img/logo/ragedeathrun.png">
     <h3 align="right" >
         <a href="https://rage-deathrun.tk/"> Rage Deathrun </a>
     </h3>
