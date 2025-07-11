@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript">
     <img src="https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
     <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+    <img src="https://img.shields.io/badge/bun-282a36.svg?&style=for-the-badge&logo=bun&logoColor=fbf0df">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
     <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
     <img src="https://img.shields.io/badge/Gmod%20Lua-4f33ff?style=for-the-badge&logo=lua&logoColor=white">
@@ -27,13 +28,15 @@
     <img src="https://img.shields.io/badge/GIT-f03c2e?style=for-the-badge&logo=git&logoColor=white"/>
     <img src="https://img.shields.io/badge/next.js-000.svg?style=for-the-badge&logo=next.js&logoColor=white">
     <img src="https://img.shields.io/badge/docker-1D63ED.svg?&style=for-the-badge&logo=docker&logoColor=white">
+    <img src="https://img.shields.io/badge/hono-ff6d2e.svg?&style=for-the-badge&logo=hono&logoColor=white">
 </p>
 
 <h4 align="center" > 🖥 Operating system</h4>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Debian-d70a53.svg?&style=for-the-badge&logo=debian&logoColor=white">
     <img src="https://img.shields.io/badge/Windows-33a8ff.svg?&style=for-the-badge&logo=windows&logoColor=white">
+    <img src="https://img.shields.io/badge/Debian-d70a53.svg?&style=for-the-badge&logo=debian&logoColor=white">
+    <img src="https://img.shields.io/badge/nixos-66abde.svg?&style=for-the-badge&logo=nixos&logoColor=white">
 </p>
 
 <p align="center">
