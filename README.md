@@ -60,7 +60,7 @@
 <br>
 <hr>
 <p>
-    <img width="100" align="right" src="https://raw.githubusercontent.com/Ralex91/Rahoot/main/public/icon.svg">
+    <img width="100" align="right" src="https://github.com/Ralex91/Rahoot/blob/main/.github/icon.svg">
     <h3 align="right">
         <a href="https://github.com/Ralex91/Rahoot"> Rahoot </a>
     </h3>
