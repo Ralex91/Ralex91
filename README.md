@@ -4,7 +4,13 @@
 
 <br>
 
-<img align="left" src="assets/separators/separator-about.svg" alt=""><br>
+<div>
+  <img align="left" src="assets/separators/separator-about.svg" alt="">
+
+  <img align="right" src="https://api.visitorbadge.io/api/visitors?path=https://github.com/Ralex91/Ralex91&labelColor=292423&countColor=f09177">
+<div>
+
+<br clear="both">
 
 I am a **French developer** 🇫🇷 passionate about **technology**.
 
@@ -20,7 +26,7 @@ I also have a growing interest in **lower-level programming** and would love to 
 
 <img align="left" src="assets/separators/separator-techs.svg" alt=""><br>
 
-<img src="https://gstats.ralex.app/techs.svg?r" alt="tech stack" width="100%">
+<img src="https://gstats.ralex.app/techs.svg?r=1" alt="tech stack" width="100%">
 
 <img align="left" src="assets/separators/separator-projects.svg" alt=""><br>
 
