@@ -8,7 +8,7 @@ const CARD_W = 76
 const CARD_H = 76
 const CARD_GAP = 14
 const STEP = CARD_W + CARD_GAP
-const SCROLL_SPEED = 40
+const SCROLL_SPEED = 30
 
 interface Icon {
   slug: string
