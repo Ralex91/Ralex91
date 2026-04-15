@@ -1,0 +1,109 @@
+<svg width="100%" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+@keyframes blink {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0; }
+      }
+@keyframes flash-g {
+        0%,23%,27%,48%,52%,73%,77%,98% { opacity:1;   }
+        25%,50%,75%,100%                { opacity:0.1; }
+      }
+      .name     { font-family: 'Courier New', Courier, monospace; font-size: 64px; font-weight: 700; fill: #F09177; }
+      .prompt   { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #c8b0ab; }
+      .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 14px; }
+      .cursor   { animation: blink 0.8s step-end infinite; }
+.pgrid    { animation: flash-g 8s linear infinite; }
+    </style>
+    <filter id="gg-b" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <linearGradient id="codeVertFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="white" stop-opacity="0"/>
+      <stop offset="15%"  stop-color="white" stop-opacity="1"/>
+      <stop offset="85%"  stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="codeVertMask">
+      <rect width="800" height="200" fill="url(#codeVertFade)"/>
+    </mask>
+    <clipPath id="clip-bg">
+      <rect width="800" height="200" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <rect width="800" height="200" rx="6" fill="#292423"/>
+
+  <g clip-path="url(#clip-bg)">
+    <g transform="translate(385, 0) skewX(-12)">
+      <rect x="-2" y="-200" width="480" height="800" fill="#231f1e"/>
+      <line x1="-1.5" y1="-200" x2="-1.5" y2="600" stroke="#3a3534" stroke-width="1.5"/>
+    </g>
+
+    <g mask="url(#codeVertMask)">
+      <g transform="translate(415, 0) skewX(-12)" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10">
+        <g>
+          <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -440" dur="14s" repeatCount="indefinite"/>
+
+          <text x="10" y="38"><tspan fill="#c792ea">import </tspan><tspan fill="#82aaff">{ useState }</tspan><tspan fill="#c792ea"> from </tspan><tspan fill="#c3e88d">'react'</tspan></text>
+
+          <text x="10" y="78"><tspan fill="#c792ea">interface </tspan><tspan fill="#ffcb6b">Props </tspan><tspan fill="#89ddff">{</tspan></text>
+          <text x="28" y="98"><tspan fill="#f07178">name</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="28" y="118"><tspan fill="#f07178">role</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="28" y="138"><tspan fill="#f07178">avatar</tspan><tspan fill="#89ddff">?: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="10" y="158"><tspan fill="#89ddff">}</tspan></text>
+
+          <text x="10" y="198"><tspan fill="#c792ea">export function </tspan><tspan fill="#82aaff">ProfileCard</tspan><tspan fill="#89ddff">(</tspan><tspan fill="#f78c6c">{ name, role, avatar }</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">Props</tspan><tspan fill="#89ddff">) {</tspan></text>
+          <text x="28" y="218"><tspan fill="#c792ea">const </tspan><tspan fill="#89ddff">[</tspan><tspan fill="#82aaff">liked</tspan><tspan fill="#89ddff">, </tspan><tspan fill="#82aaff">setLiked</tspan><tspan fill="#89ddff">] = </tspan><tspan fill="#82aaff">useState</tspan><tspan fill="#89ddff">(</tspan><tspan fill="#f78c6c">false</tspan><tspan fill="#89ddff">)</tspan></text>
+
+          <text x="28" y="258"><tspan fill="#c792ea">return </tspan><tspan fill="#89ddff">(</tspan></text>
+          <text x="46" y="278"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">div </tspan><tspan fill="#82aaff">className</tspan><tspan fill="#89ddff">=</tspan><tspan fill="#c3e88d">"card"</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="298"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">img </tspan><tspan fill="#82aaff">src</tspan><tspan fill="#89ddff">={</tspan><tspan fill="#82aaff">avatar</tspan><tspan fill="#89ddff">} </tspan><tspan fill="#82aaff">alt</tspan><tspan fill="#89ddff">={</tspan><tspan fill="#82aaff">name</tspan><tspan fill="#89ddff">} /&gt;</tspan></text>
+          <text x="64" y="318"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">h2</tspan><tspan fill="#89ddff">&gt;{</tspan><tspan fill="#82aaff">name</tspan><tspan fill="#89ddff">}&lt;/</tspan><tspan fill="#f07178">h2</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="338"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">p</tspan><tspan fill="#89ddff">&gt;{</tspan><tspan fill="#82aaff">role</tspan><tspan fill="#89ddff">}&lt;/</tspan><tspan fill="#f07178">p</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="358"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">button </tspan><tspan fill="#82aaff">onClick</tspan><tspan fill="#89ddff">={() =&gt; </tspan><tspan fill="#82aaff">setLiked</tspan><tspan fill="#89ddff">(!</tspan><tspan fill="#82aaff">liked</tspan><tspan fill="#89ddff">)}&gt;</tspan></text>
+          <text x="82" y="378"><tspan fill="#89ddff">{</tspan><tspan fill="#82aaff">liked </tspan><tspan fill="#89ddff">? </tspan><tspan fill="#c3e88d">'❤️ Liked'</tspan><tspan fill="#89ddff"> : </tspan><tspan fill="#c3e88d">'🤍 Like'</tspan><tspan fill="#89ddff">}</tspan></text>
+          <text x="64" y="398"><tspan fill="#89ddff">&lt;/</tspan><tspan fill="#f07178">button</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="46" y="418"><tspan fill="#89ddff">&lt;/</tspan><tspan fill="#f07178">div</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="28" y="438"><tspan fill="#89ddff">)</tspan></text>
+        </g>
+
+        <g>
+          <animateTransform attributeName="transform" type="translate" from="0 440" to="0 0" dur="14s" repeatCount="indefinite"/>
+
+          <text x="10" y="38"><tspan fill="#c792ea">import </tspan><tspan fill="#82aaff">{ useState }</tspan><tspan fill="#c792ea"> from </tspan><tspan fill="#c3e88d">'react'</tspan></text>
+          <text x="10" y="78"><tspan fill="#c792ea">interface </tspan><tspan fill="#ffcb6b">Props </tspan><tspan fill="#89ddff">{</tspan></text>
+          <text x="28" y="98"><tspan fill="#f07178">name</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="28" y="118"><tspan fill="#f07178">role</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="28" y="138"><tspan fill="#f07178">avatar</tspan><tspan fill="#89ddff">?: </tspan><tspan fill="#ffcb6b">string</tspan></text>
+          <text x="10" y="158"><tspan fill="#89ddff">}</tspan></text>
+          <text x="10" y="198"><tspan fill="#c792ea">export function </tspan><tspan fill="#82aaff">ProfileCard</tspan><tspan fill="#89ddff">(</tspan><tspan fill="#f78c6c">{ name, role, avatar }</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#ffcb6b">Props</tspan><tspan fill="#89ddff">) {</tspan></text>
+          <text x="28" y="218"><tspan fill="#c792ea">const </tspan><tspan fill="#89ddff">[</tspan><tspan fill="#82aaff">liked</tspan><tspan fill="#89ddff">, </tspan><tspan fill="#82aaff">setLiked</tspan><tspan fill="#89ddff">] = </tspan><tspan fill="#82aaff">useState</tspan><tspan fill="#89ddff">(</tspan><tspan fill="#f78c6c">false</tspan><tspan fill="#89ddff">)</tspan></text>
+          <text x="28" y="258"><tspan fill="#c792ea">return </tspan><tspan fill="#89ddff">(</tspan></text>
+          <text x="46" y="278"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">div </tspan><tspan fill="#82aaff">className</tspan><tspan fill="#89ddff">=</tspan><tspan fill="#c3e88d">"card"</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="298"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">img </tspan><tspan fill="#82aaff">src</tspan><tspan fill="#89ddff">={</tspan><tspan fill="#82aaff">avatar</tspan><tspan fill="#89ddff">} </tspan><tspan fill="#82aaff">alt</tspan><tspan fill="#89ddff">={</tspan><tspan fill="#82aaff">name</tspan><tspan fill="#89ddff">} /&gt;</tspan></text>
+          <text x="64" y="318"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">h2</tspan><tspan fill="#89ddff">&gt;{</tspan><tspan fill="#82aaff">name</tspan><tspan fill="#89ddff">}&lt;/</tspan><tspan fill="#f07178">h2</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="338"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">p</tspan><tspan fill="#89ddff">&gt;{</tspan><tspan fill="#82aaff">role</tspan><tspan fill="#89ddff">}&lt;/</tspan><tspan fill="#f07178">p</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="64" y="358"><tspan fill="#89ddff">&lt;</tspan><tspan fill="#f07178">button </tspan><tspan fill="#82aaff">onClick</tspan><tspan fill="#89ddff">={() =&gt; </tspan><tspan fill="#82aaff">setLiked</tspan><tspan fill="#89ddff">(!</tspan><tspan fill="#82aaff">liked</tspan><tspan fill="#89ddff">)}&gt;</tspan></text>
+          <text x="82" y="378"><tspan fill="#89ddff">{</tspan><tspan fill="#82aaff">liked </tspan><tspan fill="#89ddff">? </tspan><tspan fill="#c3e88d">'❤️ Liked'</tspan><tspan fill="#89ddff"> : </tspan><tspan fill="#c3e88d">'🤍 Like'</tspan><tspan fill="#89ddff">}</tspan></text>
+          <text x="64" y="398"><tspan fill="#89ddff">&lt;/</tspan><tspan fill="#f07178">button</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="46" y="418"><tspan fill="#89ddff">&lt;/</tspan><tspan fill="#f07178">div</tspan><tspan fill="#89ddff">&gt;</tspan></text>
+          <text x="28" y="438"><tspan fill="#89ddff">)</tspan></text>
+        </g>
+
+      </g>
+    </g>
+  </g>
+
+  <text class="subtitle" x="44" y="68">
+    <tspan fill="#c8b0ab">welcome to my profile</tspan>
+  </text>
+  <text class="name" x="50" y="128">Ralex</text>
+  <text class="prompt" x="44" y="158">~/github/Ralex91</text>
+  <text class="prompt" x="184" y="158"> ❯</text>
+  <rect class="cursor" x="199" y="147" width="8" height="13" fill="#c8b0ab" opacity="0"/>
+  
+  <rect x="0.5" y="0.5" width="799" height="199" rx="6" fill="none" stroke="#51403b" stroke-width="1"/>
+</svg>

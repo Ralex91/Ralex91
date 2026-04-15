@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": ["node", "bun-types"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
