@@ -31,9 +31,9 @@ I also have a growing interest in **lower-level programming** and would love to 
 <img align="left" src="assets/separators/separator-projects.svg" alt=""><br>
 
 <div>
-  <img width="70" align="left" hspace="12" src="assets/projects/rahoot.svg">
-  <h3><a href="https://github.com/Ralex91/Rahoot">Rahoot</a></h3>
-  <p>Open-source Kahoot! clone you can self-host for smaller events.</p>
+  <img width="70" align="left" hspace="12" src="assets/projects/razzia.svg">
+  <h3><a href="https://github.com/Ralex91/Razzia">Razzia</a></h3>
+  <p>A self-hosted, open-source quiz platform for smaller events. </p>
 </div>
 
 <hr>
