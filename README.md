@@ -85,6 +85,7 @@ I also have a growing interest in **lower-level programming** and would love to 
   <img align="right" width="390" src="https://gstats.ralex.app/stats" alt="stats">
 </div>
 <br clear="both">
+<br>
 
 <img align="left" src="assets/separators/separator-music.svg" alt=""><br>
 
