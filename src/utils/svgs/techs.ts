@@ -106,7 +106,9 @@ function buildRow(
 let cache: string | null = null
 
 export async function generateTechsSVG(): Promise<string> {
-  if (cache) return cache
+  if (cache) {
+    return cache
+  }
 
   const files = [...new Bun.Glob("*.svg").scanSync({ cwd: TECHS_DIR })].sort()
 

@@ -3,11 +3,13 @@
   "type": "module",
   "scripts": {
     "dev": "bun run --hot src/index.ts",
-    "build": "bun build --minify src/index.ts --outfile dist/index.js",
-    "start": "bun dist/index.js"
+    "build": "bun build --minify --target bun src/index.ts --outfile dist/index.js",
+    "start": "bun dist/index.js",
+    "docker:up": "docker compose up -d --build"
   },
   "dependencies": {
     "hono": "^4.12.18",
+    "html-entities": "^2.6.0",
     "ky": "^2.0.2",
     "remeda": "^2.34.0"
   },

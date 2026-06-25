@@ -26,7 +26,7 @@ I also have a growing interest in **lower-level programming** and would love to 
 
 <img align="left" src="assets/separators/separator-techs.svg" alt=""><br>
 
-<img src="https://gstats.ralex.app/techs.svg?r=1" alt="tech stack" width="100%">
+<img src="https://gstats.ralex.app/techs" alt="tech stack" width="100%">
 
 <img align="left" src="assets/separators/separator-projects.svg" alt=""><br>
 
@@ -81,7 +81,13 @@ I also have a growing interest in **lower-level programming** and would love to 
 <img align="left" src="assets/separators/separator-stats.svg" alt=""><br>
 
 <div>
-  <img align="left"  width="390" src="https://gstats.ralex.app/langs.svg" alt="languages">
-  <img align="right" width="390" src="https://gstats.ralex.app/stats.svg" alt="stats">
+  <img align="left"  width="390" src="https://gstats.ralex.app/langs" alt="languages">
+  <img align="right" width="390" src="https://gstats.ralex.app/stats" alt="stats">
 </div>
 <br clear="both">
+
+<img align="left" src="assets/separators/separator-music.svg" alt=""><br>
+
+<a href="https://gstats.ralex.app/music/link">
+  <img src="https://gstats.ralex.app/music" alt="now playing" width="100%">
+</a>
