@@ -10,6 +10,18 @@ import { Hono } from "hono"
 
 const app = new Hono()
 
+app.use("*", async (c, next) => {
+  await next()
+
+  c.header(
+    "Cache-Control",
+    "no-store, no-cache, must-revalidate, proxy-revalidate",
+  )
+  c.header("Pragma", "no-cache")
+  c.header("Expires", "0")
+  c.header("Surrogate-Control", "no-store")
+})
+
 app.get("/stats", async (c) => {
   const { stats } = await getGithubData()
 
