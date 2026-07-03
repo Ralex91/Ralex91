@@ -19,8 +19,6 @@ const loadSongs = (): Song[] => {
   return JSON.parse(readFileSync(path, "utf-8")) as Song[]
 }
 
-const SONGS = loadSongs()
-
 interface iTunesResult {
   collectionName: string
   artworkUrl100: string
@@ -30,11 +28,11 @@ interface iTunesResult {
   trackViewUrl: string
 }
 
-const getDailySongIndex = (): number => {
+const getDailySongIndex = (songsLength: number): number => {
   const date = new Date().toISOString().slice(0, 10)
   const hash = [...date].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 0)
 
-  return hash % SONGS.length
+  return hash % songsLength
 }
 
 const truncate = (str: string, max: number): string =>
@@ -124,13 +122,15 @@ const EMPTY_SVG = musicTpl({
 let cache: { date: string; svg: string; link: string } | null = null
 
 const buildCache = async (today: string): Promise<void> => {
-  if (isEmpty(SONGS)) {
+  const songs = loadSongs()
+
+  if (isEmpty(songs)) {
     cache = { date: today, svg: EMPTY_SVG, link: "" }
 
     return
   }
 
-  const song = SONGS[getDailySongIndex()]
+  const song = songs[getDailySongIndex(songs.length)]
 
   let coverBase64: string | null = null
   let genre = "—"
