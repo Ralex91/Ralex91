@@ -90,5 +90,5 @@ I also have a growing interest in **lower-level programming** and would love to 
 <img align="left" src="assets/separators/separator-music.svg" alt=""><br>
 
 <a href="https://gstats.ralex.app/music/link">
-  <img src="https://gstats.ralex.app/music" alt="now playing" width="100%">
+  <img src="https://gstats.ralex.app/music?fresh=1" alt="now playing" width="100%">
 </a>
