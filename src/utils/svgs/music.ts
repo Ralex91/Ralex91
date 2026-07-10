@@ -28,11 +28,23 @@ interface iTunesResult {
   trackViewUrl: string
 }
 
-const getDailySongIndex = (songsLength: number): number => {
-  const date = new Date().toISOString().slice(0, 10)
-  const hash = [...date].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 0)
+const songKey = (song: Song): string => `${song.artist}—${song.title}`
 
-  return hash % songsLength
+const usedSongKeys = new Set<string>()
+
+const pickSong = (songs: Song[]): Song => {
+  const available = songs.filter((song) => !usedSongKeys.has(songKey(song)))
+  const pool = isEmpty(available) ? songs : available
+  const song = pool[Math.floor(Math.random() * pool.length)]
+
+  usedSongKeys.add(songKey(song))
+
+  if (usedSongKeys.size >= songs.length) {
+    usedSongKeys.clear()
+    usedSongKeys.add(songKey(song))
+  }
+
+  return song
 }
 
 const truncate = (str: string, max: number): string =>
@@ -130,7 +142,7 @@ const buildCache = async (today: string): Promise<void> => {
     return
   }
 
-  const song = songs[getDailySongIndex(songs.length)]
+  const song = pickSong(songs)
 
   let coverBase64: string | null = null
   let genre = "—"
