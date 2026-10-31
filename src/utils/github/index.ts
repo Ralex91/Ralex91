@@ -9,6 +9,7 @@ import type {
 import ky from "ky"
 import {
   entries,
+  filter,
   flatMap,
   groupBy,
   identity,
@@ -45,11 +46,16 @@ export const getGithubData = async (): Promise<{
     return { stats: cache.stats, langs: cache.langs }
   }
 
+  const now = new Date()
+  const monthStart = new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1),
+  ).toISOString()
+
   const {
     data: {
-      user: { repositories, contributionsCollection, pullRequests },
+      user: { repositories, contributionsCollection, thisMonth, pullRequests },
     },
-  } = await gql(GITHUB_QUERY, { login: Bun.env.GITHUB_NAME })
+  } = await gql(GITHUB_QUERY, { login: Bun.env.GITHUB_NAME, monthStart })
 
   const stars = repositories.nodes.reduce((s, r) => s + r.stargazerCount, 0)
   const commits =
@@ -57,6 +63,19 @@ export const getGithubData = async (): Promise<{
     contributionsCollection.restrictedContributionsCount
   const repos = repositories.totalCount
   const prs = pullRequests.totalCount
+
+  const monthly = {
+    commits:
+      thisMonth.totalCommitContributions +
+      thisMonth.restrictedContributionsCount,
+    repos: thisMonth.totalRepositoryContributions,
+    stars: pipe(
+      repositories.nodes,
+      flatMap((repo) => repo.stargazers.edges),
+      filter(({ starredAt }) => starredAt >= monthStart),
+    ).length,
+    prs: thisMonth.totalPullRequestContributions,
+  }
 
   const langBytes = pipe(
     repositories.nodes,
@@ -82,7 +101,7 @@ export const getGithubData = async (): Promise<{
   )
 
   cache = {
-    stats: { commits, repos, stars, prs },
+    stats: { commits, repos, stars, prs, monthly },
     langs,
     expiresAt: Date.now() + CACHE_TTL,
   }

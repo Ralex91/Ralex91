@@ -5,6 +5,7 @@ export interface GithubQueryResponse {
         totalCount: number
         nodes: {
           stargazerCount: number
+          stargazers: { edges: { starredAt: string }[] }
           languages: {
             edges: {
               size: number
@@ -16,6 +17,12 @@ export interface GithubQueryResponse {
       contributionsCollection: {
         totalCommitContributions: number
         restrictedContributionsCount: number
+      }
+      thisMonth: {
+        totalCommitContributions: number
+        restrictedContributionsCount: number
+        totalPullRequestContributions: number
+        totalRepositoryContributions: number
       }
       pullRequests: {
         totalCount: number
@@ -29,6 +36,7 @@ export interface StatsData {
   repos: number
   stars: number
   prs: number
+  monthly: { commits: number; repos: number; stars: number; prs: number }
 }
 
 export interface LangData {
