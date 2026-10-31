@@ -1,4 +1,4 @@
-import { FONT_FAMILY } from "@/utils/constants"
+import { CARD_PADDING, FONT_FAMILY } from "@/utils/constants"
 import { FONT_FACE } from "@/utils/font"
 
 interface StatTile {
@@ -15,7 +15,7 @@ interface StatsVars {
 
 const CELL_W = 195
 const CELL_H = 106
-const PAD = 24
+const PAD = CARD_PADDING
 
 const tile = ({ value, delta, label, color, icon }: StatTile, i: number) => {
   const x = (i % 2) * CELL_W
