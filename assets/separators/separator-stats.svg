@@ -1,6 +1,7 @@
 <svg width="200" viewBox="0 0 200 28" xmlns="http://www.w3.org/2000/svg">
+  <style id="font">@font-face { font-family: Caskaydia; src: url(data:font/woff2;base64,d09GMgABAAAAAAMgAAsAAAAABaAAAALTAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAATBEMCoJ0glALDgABNgIkAw4EIAWDfAcgG6sEUZQORoXs54Hthm4w20sXHgwbQTeHphS5wSM8xcP39+a5b2u1ljpeKnWLxkIV0zmAXQMY+oABWfCAx/efrO1eS76IvuPJm3h+l4ONBCkwOq3x83rV+zNOVupkJ9Ot7Epydc7k6FLO/3CAqZv6b08yRZ9imbxpLbDoBSILuwAH0ViCYcKBYOatR7JXM9Lrfq2LzCRNUCxm8UmgtMnPgG/l0oybXgJqVBk2eXZ0ehS/EFVu5wgqt/F3gclJcVV4BRa1gIQChjiBId4eUFeVJItkFsoFoOm0e8Z8xdVDUlGnbtQBZdBEGbfADwBFQAhJiCiO1otqKiCiBC8sIjGKwpppVHUfbyFQFU2SAuKlEBgE+Fc01gqVQrzl/n2U1kyTAiFqqOqmB0kvo9eiRhjtm81UNQhi4kMlVdQGEVMEiTJxhig0GZu9AoKiALIOTTx5VP83sIkY/6MsXrRV1Du1Odw983v9bTYhYZzcG93N/MeR3hcyOMz/j+7urcvOlV1qxiIzmRmPcF9BTK2rc5IVsKUL50Q9xOWPE8VHxL1GOx3cjQz8vtgPaHbnFS5h/drdddKy20HcErbt2rCdu4GzlqvEuTyl2VdXOf+rD4zfMp/o6yePsD3MiXJ6tffqdnlxVptJBubJk991x2txAACAAD+Bo1R+w3Q7QtzuG0+RBwDgwa2XcQAA7xY3Kv7q/VWVnOEbg7IEgs8bxcxB/7wWDHtXFDNv4JnpY4NBuT5X60Uk5xUUUXGOE8UabmIfOCzHGCftaOOCfX9ctOGLS+4pyytbA05YGgnLkytiWSo8eHY2tvpOPIG7lKV246k1IoUc0hgUIxIF3+oMIsRnuSOFUCRHUMuDSjImMbTN7HhqLrRRyJEG0kkGJGoyFUWAsulmlNwz6Q/Srh6rQlsRR63QKPgIFqtWDsdCLzMkks6l0iQwykOkyZU2PHXEo1wSDsg/uUAwAAA=) format("woff2"); }</style>
 
   <text x="0" y="20"
-    font-family="'Courier New', Courier, monospace"
+    font-family="Caskaydia, 'Courier New', monospace"
     font-size="16" fill="#F09177" opacity="0.7">// stats</text>
 </svg>

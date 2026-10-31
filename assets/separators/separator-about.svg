@@ -1,6 +1,7 @@
 <svg width="200" viewBox="0 0 200 28" xmlns="http://www.w3.org/2000/svg">
+  <style id="font">@font-face { font-family: Caskaydia; src: url(data:font/woff2;base64,d09GMgABAAAAAAN8AAsAAAAABjQAAAMvAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAAVBEMCoN4gygLEgABNgIkAxIEIAWDfAcgGw8FyJ4DbssMWVOtNS8nvOSbR3MvDcERKjkP1Ni3t3uiOt26+HRRawpksUopkMQiNLWklXQR/tWa7oeMXhkGxQ5YP8N9ZqKIWlUNpCosCt0hPbtLUj6kGcIqcqI88pqnx2+nZ/6HA0zcTMvSBKZoFGoXT95bx6IooFDTEujCgAINA6Px73vrV5fdZklEkuSpzOQffrAWSE6eDDeFSWlPfgHcFkJ8gY9ZLhmEGhx0qNvBHG5CflrUfwSQth3u51EJktycchWoFwUiklAsKKBYSBeQLV2UrF4Gy+InpAMZgJy0U93qVZsWCaI0mej6PJAO8oFM3AA+kZIM08wkIOQCIZWTx61biZfBkROutCMXJnrPvH2E209cdyMw/6PLqKvzAwsERojPSea9zQeuu09nkLlMupxwEVxA4QPY/YqIfc9mItxKbqf4Et9/C/EXbPfZZRRv73fm0i+TMMgNeXAujAdkxyOG6whCDMEw09PVpDqjQQHAwVMNWzrKDwDa65kZHyVcR/fSa/vnOqoHv2deEkb41SNqA6rxf1Shxx+wCP5/ebI8IzJ8tqcWBLWKBwd8HF0DiyzNw/XAX5FdCXMwHaR8f59WzPvuHL19vao5WeWETk1VSm+8fjmpzGlJ5gVjRdccOWoaR/b6hi1LS2XLXa8l56yMjuUsJyeTMDba/gDIXSr+JA+uL5lfmV3vzX4sPx7lHMeXacQybdPFHvZzFWX5KzRwb39uFa16hgb4JCVXjxmgoFsiw0MMXlaReGRVIgAIZKylyt+ZJkd8+YzO6XLp4PPhQzDgz9hs7m/yV0lgMANSRRD4WULy3QXEoU+g6P1C8qQNcIj24aLnAYX0zH9QZC0Cr0uSjDSTgkIyA7AcTBoSNIZqJMoNvEiSDv9IsjbPSIpd2eOlagF6MTwaxgpPwWizLAkGevpSJgQSn47hWhC4PAqLCeUVZVWkZWnPBkQQIoaPsMgUJgJFLeWkVaUVxTQMCFw81GMBRQ8qSCvlsTlnLDIJDg33rYa9E31C+aeDHNSPMMeteiwiAmHJZReFQb6smoaadLoTUElkhOcr8ghci0vx0oJA4jEeCBQAAA==) format("woff2"); }</style>
 
   <text x="0" y="20"
-    font-family="'Courier New', Courier, monospace"
+    font-family="Caskaydia, 'Courier New', monospace"
     font-size="16" fill="#6EDDD6" opacity="0.7">// about</text>
 </svg>

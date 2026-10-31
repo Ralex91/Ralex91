@@ -1,3 +1,6 @@
+import { FONT_FAMILY } from "@/utils/constants"
+import { FONT_FACE } from "@/utils/font"
+
 interface LangRow {
   name: string
   percent: number
@@ -16,8 +19,8 @@ export interface LangsVars {
 
 const langRow = ({ name, percent, color, barW, textY, barY }: LangRow) => `
   <g>
-    <text x="18"  y="${textY}" font-family="'Courier New', Courier, monospace" font-size="12" font-weight="700" fill="${color}">${name}</text>
-    <text x="372" y="${textY}" font-family="'Courier New', Courier, monospace" font-size="11" fill="${color}" text-anchor="end">${percent}%</text>
+    <text x="18"  y="${textY}" font-family="${FONT_FAMILY}" font-size="12" font-weight="700" fill="${color}">${name}</text>
+    <text x="372" y="${textY}" font-family="${FONT_FAMILY}" font-size="11" fill="${color}" text-anchor="end">${percent}%</text>
     <rect x="18" y="${barY}" width="354" height="8" rx="3" fill="${color}10"/>
     <rect x="18" y="${barY}" width="${barW}" height="8" rx="3" fill="${color}" opacity="0.85"/>
   </g>
@@ -31,6 +34,7 @@ export const langsTpl = ({
 }: LangsVars) => `
 <svg width="100%" viewBox="0 0 390 ${height}" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    ${FONT_FACE}
     ${clipPaths}
   </defs>
 

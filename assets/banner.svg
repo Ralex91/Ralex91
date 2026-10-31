@@ -1,4 +1,5 @@
 <svg width="100%" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <style id="font">@font-face { font-family: Caskaydia; src: url(data:font/woff2;base64,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) format("woff2"); }</style>
   <defs>
     <style>
 @keyframes blink {
@@ -9,9 +10,9 @@
         0%,23%,27%,48%,52%,73%,77%,98% { opacity:1;   }
         25%,50%,75%,100%                { opacity:0.1; }
       }
-      .name     { font-family: 'Courier New', Courier, monospace; font-size: 64px; font-weight: 700; fill: #F09177; }
-      .prompt   { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #c8b0ab; }
-      .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 14px; }
+      .name     { font-family: Caskaydia, 'Courier New', monospace; font-size: 64px; font-weight: 700; fill: #F09177; }
+      .prompt   { font-family: Caskaydia, 'Courier New', monospace; font-size: 14px; fill: #c8b0ab; }
+      .subtitle { font-family: Caskaydia, 'Courier New', monospace; font-size: 14px; }
       .cursor   { animation: blink 0.8s step-end infinite; }
 .pgrid    { animation: flash-g 8s linear infinite; }
     </style>
@@ -43,7 +44,7 @@
     </g>
 
     <g mask="url(#codeVertMask)">
-      <g transform="translate(415, 0) skewX(-12)" font-family="'SF Mono', 'Fira Code', 'Consolas', monospace" font-size="10">
+      <g transform="translate(415, 0) skewX(-12)" font-family="Caskaydia, 'Courier New', monospace" font-size="10">
         <g>
           <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -440" dur="14s" repeatCount="indefinite"/>
 
@@ -97,13 +98,13 @@
     </g>
   </g>
 
-  <text class="subtitle" x="44" y="68">
-    <tspan fill="#c8b0ab">welcome to my profile</tspan>
+  <text class="subtitle" x="44" y="59">
+    <tspan fill="#c8b0ab">Welcome to my profile</tspan>
   </text>
-  <text class="name" x="50" y="128">Ralex</text>
-  <text class="prompt" x="44" y="158">~/github/Ralex91</text>
-  <text class="prompt" x="184" y="158"> ❯</text>
-  <rect class="cursor" x="199" y="147" width="8" height="13" fill="#c8b0ab" opacity="0"/>
+  <text class="name" x="41" y="119">Ralex</text>
+  <text class="prompt" x="44" y="149">~/github/Ralex91</text>
+  <text class="prompt" x="184" y="149"> ❯</text>
+  <rect class="cursor" x="199" y="138" width="8" height="13" fill="#c8b0ab" opacity="0"/>
   
   <rect x="0.5" y="0.5" width="799" height="199" rx="6" fill="none" stroke="#51403b" stroke-width="1"/>
 </svg>

@@ -1,3 +1,6 @@
+import { FONT_FAMILY } from "@/utils/constants"
+import { FONT_FACE } from "@/utils/font"
+
 export interface TechsVars {
   size: { w: number; h: number }
   assets: { defs: string[]; symbols: string[] }
@@ -7,12 +10,13 @@ export interface TechsVars {
 export const techsTpl = ({ size, assets, rows }: TechsVars) => `
 <svg width="${size.w}" viewBox="0 0 ${size.w} ${size.h}" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    ${FONT_FACE}
     <style>
       @keyframes sl { from { transform: translateX(0) } to { transform: translateX(-${rows[0].dist}px) } }
       @keyframes sr { from { transform: translateX(-${rows[1].dist}px) } to { transform: translateX(0) } }
       .tl { animation: sl ${rows[0].dur}s linear infinite }
       .tr { animation: sr ${rows[1].dur}s linear infinite }
-      .cl { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #c8b0ab; text-anchor: middle }
+      .cl { font-family: ${FONT_FAMILY}; font-size: 10px; fill: #c8b0ab; text-anchor: middle }
     </style>
     ${assets.defs.join("\n    ")}
     ${assets.symbols.join("\n    ")}

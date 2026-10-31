@@ -1,7 +1,7 @@
 export const CACHE_TTL = 60 * 60 * 1000 // 1 hour
 
 export const TRACK_WIDTH = 354
-export const FONT = `font-family="'Courier New', Courier, monospace"`
+export const FONT_FAMILY = "Caskaydia, 'Courier New', monospace"
 
 export const TECH_DISPLAY_NAMES: Record<string, string> = {
   typescript: "TypeScript",

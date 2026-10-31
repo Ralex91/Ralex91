@@ -1,3 +1,6 @@
+import { FONT_FAMILY } from "@/utils/constants"
+import { FONT_FACE } from "@/utils/font"
+
 export interface MusicVars {
   title: string
   artist: string
@@ -17,11 +20,12 @@ export const musicTpl = ({
 }: MusicVars) => `\
 <svg width="800" viewBox="0 0 800 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    ${FONT_FACE}
     <style>
-      .m-t { font-family:'Courier New',Courier,monospace; font-size:18px; font-weight:bold; fill:#F09177; }
-      .m-a { font-family:'Courier New',Courier,monospace; font-size:16px; fill:#c8b0ab; }
-      .m-m { font-family:'Courier New',Courier,monospace; font-size:11px; fill:#c8b0ab; }
-      .m-c { font-family:'SF Mono','Fira Code','Consolas',monospace; font-size:11px; }
+      .m-t { font-family:${FONT_FAMILY}; font-size:18px; font-weight:bold; fill:#F09177; }
+      .m-a { font-family:${FONT_FAMILY}; font-size:16px; fill:#c8b0ab; }
+      .m-m { font-family:${FONT_FAMILY}; font-size:11px; fill:#c8b0ab; }
+      .m-c { font-family:${FONT_FAMILY}; font-size:11px; }
     </style>
     <clipPath id="mc"><rect x="20" y="20" width="120" height="120" rx="5"/></clipPath>
     <clipPath id="card"><rect width="800" height="160" rx="6"/></clipPath>
@@ -68,7 +72,7 @@ export const musicTpl = ({
   ${
     coverBase64
       ? `<image x="20" y="20" width="120" height="120" clip-path="url(#mc)" href="${coverBase64}" preserveAspectRatio="xMidYMid slice"/>`
-      : `<text x="80" y="93" font-size="42" text-anchor="middle" fill="#c8b0ab" opacity="0.3">&#9835;</text>`
+      : `<text x="80" y="93" font-family="${FONT_FAMILY}" font-size="42" text-anchor="middle" fill="#c8b0ab" opacity="0.3">&#9835;</text>`
   }
   <rect x="220" y="35" width="3" height="5" rx="1" fill="#6EDDD6" opacity="0.9">
     <animate attributeName="height" values="5;11;5" dur="0.8s" repeatCount="indefinite"/>
@@ -87,7 +91,7 @@ export const musicTpl = ({
     <text class="m-t" x="220" y="67">${title}</text>
     <text class="m-a" x="220" y="86">${artist}</text>
     <rect x="220" y="103" width="158" height="26" rx="4" fill="#292423" stroke="#F09177" stroke-width="1.5"/>
-    <text x="289" y="120" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="12" text-anchor="middle" fill="#F09177" font-weight="800">Listen my fav part</text>
+    <text x="289" y="120" font-family="${FONT_FAMILY}" font-size="12" text-anchor="middle" fill="#F09177" font-weight="800">Listen my fav part</text>
     <g transform="translate(359, 111) scale(0.46)" fill="none" stroke="#F09177" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
       <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"/>
       <path d="m21 3-9 9"/>
@@ -98,9 +102,9 @@ export const musicTpl = ({
   <rect x="561" y="0" width="140" height="2" fill="#F09177"/>
   <line x1="701" y1="0" x2="701" y2="24" stroke="#3a3534" stroke-width="0.5"/>
   <line x1="561" y1="24" x2="800" y2="24" stroke="#3a3534" stroke-width="0.5"/>
-  <text x="568" y="17" font-size="10" fill="#F09177" opacity="0.85">&#9835;</text>
-  <text x="584" y="17" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="11" fill="#c8b0ab">musicplayer.ts</text>
-  <text x="685" y="17" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="16" fill="#c8b0ab">&#215;</text>
+  <text x="568" y="17" font-family="${FONT_FAMILY}" font-size="10" fill="#F09177" opacity="0.85">&#9835;</text>
+  <text x="584" y="17" font-family="${FONT_FAMILY}" font-size="11" fill="#c8b0ab">musicplayer.ts</text>
+  <text x="685" y="17" font-family="${FONT_FAMILY}" font-size="16" fill="#c8b0ab">&#215;</text>
   <text class="m-c" x="586" y="55"><tspan fill="#c792ea">const </tspan><tspan fill="#ffcb6b">track</tspan><tspan fill="#89ddff"> = {</tspan></text>
   <text class="m-c" y="72"><tspan x="600" fill="#f07178">genre</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#c3e88d">"${genre}"</tspan><tspan fill="#89ddff">,</tspan></text>
   <text class="m-c" y="89"><tspan x="600" fill="#f07178">year</tspan><tspan fill="#89ddff">: </tspan><tspan fill="#f78c6c">${year}</tspan><tspan fill="#89ddff">,</tspan></text>
